@@ -13,7 +13,7 @@ Camp has been disrupted by the Biggest Zombie Assault EVER. Camp as we know it i
 
 ##### Use your arrow keys to navigate through this map (see bottom right corner). To see the entire map, press Escape!
 
-[Return to AICL 2020 homepage](/)
+[Return to AICL 2020 homepage](/Virtual-Camp/)
 
 ---
 
