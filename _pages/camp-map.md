@@ -40,6 +40,8 @@ Music stuff happens here!
 
 A big, grassy area for hanging out! Maybe at night we'll have a campfire here!
 
+<iframe src="https://giphy.com/embed/ynx1sj5Wz2atO" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/ynx1sj5Wz2atO">via GIPHY</a></p>
+
 --
 
 # Jessica's Goats
