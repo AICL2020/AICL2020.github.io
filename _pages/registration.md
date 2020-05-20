@@ -1,7 +1,7 @@
 ---
 layout: maps
-title: Main Camp Map
-permalink: /maps/main/
+title: Registration
+permalink: /Registration
 ---
 
 <section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
