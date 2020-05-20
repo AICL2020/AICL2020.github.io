@@ -14,6 +14,15 @@
     <area target="" alt="Tauntaun's Whiteboard" title="Tauntaun's Whiteboard" href="https://meet.jit.si/AICL2020VirtualCampTauntaunWhiteboard" coords="232,889,180,961,342,1044,390,961" shape="poly">
     <area target="" alt="Tauntaun's Projector Screen" title="Tauntaun's Projector Screen" href="https://meet.jit.si/AICL2020VirtualCampTauntaunProjectorScreen" coords="410,968,371,1064,612,1112,597,989" shape="poly">
     <area target="" alt="Tauntaun's Tinkering Bench" title="Tauntaun's Tinkering Bench" href="https://meet.jit.si/AICL2020VirtualCampTauntaunTinkeringBench" coords="483,643,477,751,641,770,646,674" shape="poly">
-    <area target="" alt="Tauntaun's Meditation Room" title="Tauntaun's Meditation Room" href="https://meet.jit.si/AICL2020VirtualCampTauntaunMeditationRoom" coords="676,896,659,1026,836,1017,835,896" shape="poly">
+    <!-- Audio files play when this area of the image map is clicked -->
+    <area target="" onclick="playSound('assets/audio/audio_example.m4a')" alt="Tauntaun's Meditation Room" title="Tauntaun's Meditation Room" coords="676,896,659,1026,836,1017,835,896" shape="poly">
     <area target="" alt="Back to All Classrooms" title="Back to All Classrooms" href="https://aicl-2020.github.io/Virtual-Camp/All_classrooms_map" coords="546,169,551,307,561,320,682,265,681,236,625,150,580,85" shape="poly">
 </map>
+
+<!-- Function for embedding audio files in image map. Audio files play when that area of the image map is clicked -->
+<script>
+    function playSound(soundfile) {
+      var audio = new Audio(soundfile);
+      audio.play();
+    }
+  </script>
