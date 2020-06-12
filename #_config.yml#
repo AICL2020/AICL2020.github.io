@@ -9,7 +9,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - "**README.md"
-  - /node_modules
 
 header_pages:
   - _pages/camp-map.md
