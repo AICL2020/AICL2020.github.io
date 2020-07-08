@@ -5,6 +5,28 @@
 <script type="text/javascript" src="/js/scriptaculous.js?load=effects"></script>
 <script type="text/javascript" src="/js/lightwindow.js"></script>
 <link rel="stylesheet" href="/css/lightwindow.css" type="text/css" media="screen" />
+
+<script>
+
+    var audio = new Audio("assets/audio/eric_audio.wav");
+    function playSound() {
+      if (isPlaying(audio)) {
+        audio.pause();
+      }
+      else {
+        audio.play();
+      }
+    }
+
+    function isPlaying(audio) {
+    return audio.currentTime > 0
+        && !audio.paused
+        && !audio.ended
+        && audio.readyState > 2;
+    }
+
+  </script>
+
 </head>
 
 <body style="background-color:#ddd9c8;">
@@ -14,7 +36,11 @@
 
 <map name="image-map">
     <area target="" alt="Mind blown" title="Mind blown" href="https://dl.dropbox.com/s/e8mhl30bxkrtvh6/Eric%20Classroom%20Video.mp4" class="lightwindow" params="lightwindow_width=640,lightwindow_height=360" coords="686,146,806,203" shape="rect">
+
+    <area target="" alt="" title="BOTTOM" onclick="playSound()" coords="274,802,355,837" shape="rect">
+    <area target="" alt="" onclick="playSound()" coords="693,65,802,18" shape="rect">
 </map>
+
 
 
 </body>
