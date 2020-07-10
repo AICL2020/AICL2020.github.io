@@ -35,12 +35,18 @@
 <center><img src="/assets/maps/classroom_eric.png" usemap="#image-map"></center>
 
 <map name="image-map">
-    <area target="" alt="Mind blown" title="Mind blown" href="https://dl.dropbox.com/s/e8mhl30bxkrtvh6/Eric%20Classroom%20Video.mp4" class="lightwindow" params="lightwindow_width=640,lightwindow_height=360" coords="693,65,802,18" shape="rect">
-
-    <area target="" alt="" title="Play Audio" onclick="playSound()" coords="274,802,355,837" shape="rect">
+    <area target="" alt="Play_Music" title="Play_Music" onclick="playSound('/assets/audio/EricClassroomAudio.mp3')" coords="731,893,812,940" shape="rect">
+    <area target="" alt="Adobe_Connect" title="Adobe_Connect" href="https://meet663907464.adobeconnect.com/foolmeonce" coords="1168,847,1377,979" shape="rect">
+    <area target="" alt="Mind_Blown" title="Mind_Blown" class="lightwindow" params="lightwindow_width=640,lightwindow_height=360" href="https://dl.dropbox.com/s/39r27euk1suqfm1/EricClassroomVideo.mp4" coords="701,86,875,11" shape="rect">
 </map>
-
-
 
 </body>
 </html>
+
+<!-- Function for embedding audio files in image map. Audio files play when that area of the image map is clicked -->
+<script>
+  function playSound(soundfile) {
+    var audio = new Audio(soundfile);
+    audio.play();
+  }
+</script>
